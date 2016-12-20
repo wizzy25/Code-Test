@@ -17,7 +17,6 @@ app.get('/', (req, res) => {
 app.get('/view', (req, res) => {
 	request.get('http://pastebin.com/raw/943PQQ0n', function (error, response, body) {
 		if (!error && response.statusCode == "200") {
-			console.log(JSON.stringify(res.req.headers, null, 2));
 			res.status(200).send(body);
 		}
 		else throw error;
