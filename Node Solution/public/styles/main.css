@@ -1,0 +1,25 @@
+body {
+    background-color: #ffe6e6;
+}
+.display {
+    font-family: cursive;
+    font-size: larger;
+    text-align: center;
+    position: relative;
+    margin: auto;
+}
+#countries {
+    border: 2px palevioletred solid;
+    display: block;
+    font-size: large;
+    padding: 0.2%;
+    margin-top: 2%;
+    max-width: 30vw;
+    text-align: left;
+}
+.button {
+    border: mediumvioletred solid 2px;
+    display: inline-block;
+    width: 15vw;
+    cursor: default;
+}
